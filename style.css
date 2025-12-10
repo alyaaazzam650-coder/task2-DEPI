@@ -1,0 +1,292 @@
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    text-align: center;
+}
+.logo{
+    float: left;
+    text-indent: 20px;
+}
+.links{
+      
+    float: right;
+    
+}
+.links a {
+    text-decoration: none;
+    color: black;
+    font-weight: lighter;
+    margin: 10px;
+    
+}
+.links img{
+    width: 30px;
+    height:30px;
+
+}
+.hero{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.hero-text{
+    float: left;
+    text-align: justify;
+    width: 50%;
+   
+}
+.hero-image{
+    float: right;
+    width: 50%;
+}
+
+.clearfix::after{
+    clear: both;
+    display: block;
+    content: "";
+}
+.hero-text .btn1{
+    background-color: chocolate;
+    color: white;
+    border: none;
+    width: 100px;
+    height: 35px;
+}
+.hero-text .btn2{
+    background-color: black;
+    color: white;
+    border: none;
+    width: 100px;
+    height: 35px;
+}
+
+.services{
+    text-align: center; 
+}
+.products{
+    align-items: center;
+}
+
+.fruits{
+    display: inline-block;
+    text-align: center;
+    border: 0.5px rgb(218, 214, 214) solid;
+    width: 300px;
+    height: 300px;
+    margin: 30px;
+}
+.products .fruits img{
+   width: 50px;
+}
+
+.products .fruits h3{
+    color: chocolate;
+}
+
+ .services .button .btn{
+     background-color: black;
+    color: white;
+    border: none;
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    
+}
+.services .button .btn:hover{
+    background-color:orange;
+}
+.section {
+    width: 100%;
+    padding: 20px;
+    gap: 30px;
+   
+}
+
+.fruits-img {
+    float: right;          
+    width: 150px;          
+    margin-left: 20px;     
+}
+
+.fruits-img img {
+    width: 100%;
+     height: 100px; 
+    object-fit: contain;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+
+
+.describe h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.describe p {
+    margin: 5px 0;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.describe button {
+    margin: 20px;
+    text-align: center;
+    background-color:black;
+    color: white;
+    border: none;
+     width: 100px;
+    height: 35px;
+
+}
+
+.tasty{
+    
+    background-image: url(../task2/images/tasty.png);
+    width:100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.tasty h2{
+    color: white;
+    font-size: 48px;
+    font-weight: bolder;
+
+}
+
+.testmonial{
+    text-align: center;
+}
+
+.form {
+    width:80%;
+    margin: 50px;
+   
+}
+.clearfix::after{
+    clear: both;
+    display: block;
+    content: "";
+}
+
+.photo {
+    float: right;
+    width: 50%; 
+ text-align: center;
+}
+
+.photo img {
+    width: 50%;
+    height: auto;
+  
+}
+
+
+.contact-form {
+    float: left;
+    width: 50%; 
+}
+
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form h2 {
+    margin-bottom: 20px;
+}
+
+.contact-form input {
+    border: none;                
+    border-bottom: 1px solid #ccc; 
+    padding: 10px 5px;
+    margin-bottom: 15px;
+    font-size: 16px;
+        
+}
+
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color:black;
+    color: white;
+    border: none;
+     width: 100px;
+    height: 35px;
+}
+
+.footer {
+    width: 100%;
+    color:black;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: justify;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+.footer .info {
+    flex: 1;                
+    display: flex;
+    flex-direction: column;  
+    margin-bottom: 20px;
+}
+
+.footer .info h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+
+.footer .info p {
+    font-size: 14px;
+    margin-bottom: 10px;
+   
+}
+
+.footer .icons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+
+.footer .icons img {
+    width: 30px;
+    height: 30px;
+}
+
+.footer .info form input {
+    display: block;
+    margin-bottom: 10px;
+    border: 0.5px lightgray solid;
+  
+}
+
+.footer .info form button {
+    background-color: #ff7f50;
+    color: white;
+    border: none;
+    width: 100px;
+    height: 25px;
+}
+
+
+.copy{
+    background-color: lightgray;
+    text-align: center;
+ 
+}
+.copy p{
+    padding: 10px;
+}
+
+
